@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: white;
+
+}
+
+video{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  z-index: -1;
+}
+
+
+
+.bg-overley{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.o{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: aliceblue;
+  align-items: center;
+  
+}
+
+h1{
+  font-family: 'Righteous', cursive;
+  font-size: 3em;
+
+}
+.order{
+  background-color: rgba(0, 0, 0, 0.238);
+  color: rgba(251, 251, 251, 0.774);
+  border: none;
+  width: 200px;
+  height: 60px;
+  border-radius: 8px;
+  border: 1px solid #fefefe85;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+
+.menu{
+}
+
+#sidebar{
+  background-color: rgba(0, 0, 0, 0.785);
+  color: rgb(50, 211, 38);
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+a{
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+.zina{
+  background-color: red;
+}
+
+.logo{
+  font-size: 2.2rem;
+}
+.menuitem{
+  font-size: 18px;
+  border-bottom: 1px solid rgba(250, 250, 250, 0.243);
+  text-align: left;
+  padding-left: 50%;
+}
+
+
+.divi{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+.content{
+  width: 90%;
+  height: 90%;
+  background-color: rgba(255, 255, 255, 0.043);
+  border-radius: 8px;
+  border: 1px solid #fefefe85;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.ordersection{
+  background-color: rgba(218, 218, 218, 0.068);
+  border-radius: 6px;
+  padding: 15px;
+}
+
+.text{
+  text-align: center;
+  padding: 20px;
+}
+
+button{
+  background-color: red;
+}
