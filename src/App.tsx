@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { Divide as Hamburger } from "hamburger-react";
-import { motion, transform } from "framer-motion"
+import { motion } from "framer-motion"
 
 import styled from "styled-components";
 import videoBG from "../public/bg-video.mp4";
@@ -94,9 +94,6 @@ function App() {
 
 export default App;
 
-const Ho = styled.h1`
-  color: yellow;
-`;
 
 const Wrapper = styled.div`
   width: 100%;
@@ -123,9 +120,7 @@ const Header = styled.div`
   z-index: 3;
 `;
 
-const Body = styled.div`
-  background-color: black;
-`;
+
 
 const Menu = styled.div`
   background-color: #b09e9e34;
