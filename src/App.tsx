@@ -78,7 +78,10 @@ function App() {
           We have a unique space for creative events and special occasions, we also have private studios for hire! Our incredible space in Prahran homes our music school The SoundLab and shares the same floor of our 700 sqm warehouse conversion, with a theatre company.
           </p>
 
-          <button onClick={()=>window.open("tel:+995568116969")}>call</button>
+          <p className="calltext">
+            for rent call us:
+          </p>
+          <button className="call" onClick={()=>window.open("tel:+995568116969")}>call</button>
 
         </motion.div>
       </Content>
