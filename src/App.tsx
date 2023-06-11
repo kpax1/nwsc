@@ -51,7 +51,7 @@ function App() {
           <Hamburger
             toggled={isOpen}
             toggle={setOpen}
-            color="#ff0000"
+            color="#ffffff"
             easing="ease-in"
             hideOutline={true}
             size={28}
@@ -67,10 +67,9 @@ function App() {
             კონტაქტი
           </div>
           <div className="menuitem">დაჯავშნა</div>
+          <div className="menuitem wow">გალერია</div>
 
-          <div className="zinikela" onClick={() => console.log("emzari")}>
-            zina
-          </div>
+        
         </Menu>
       )}
 
@@ -160,7 +159,7 @@ function App() {
           ALL RIGHT RESERVED 
           <p className='bottomtext'>
           © 2023 for
-          <span className="logonottom"> NWSC</span>  studio
+          <span className="logonottom"> NWSCchool</span>
           </p>
         </motion.p>
       </div>
