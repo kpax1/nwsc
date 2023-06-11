@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { Divide as Hamburger } from "hamburger-react";
-import { motion, transform } from "framer-motion";
+import { motion } from "framer-motion";
 
 import styled from "styled-components";
 import videoBG from "/bg-video.mp4";
