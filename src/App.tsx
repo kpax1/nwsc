@@ -43,7 +43,7 @@ function App() {
       <Header>
         <div>
           <a href="/" className="logo">
-            nwsc
+          𝔫𝔢𝔴𝔰𝔠𝔥𝔬𝔬𝔩
           </a>
         </div>
 
@@ -66,7 +66,7 @@ function App() {
           <div className="menuitem" onClick={handleClick}>
             კონტაქტი
           </div>
-          <div className="menuitem">დაჯავშნა</div>
+          <div className="menuitem">Book </div>
           <div className="menuitem wow">გალერია</div>
 
         
@@ -83,12 +83,15 @@ function App() {
         transition={{ type: "spring" }}
       >
         <button className="order" onClick={handleClick}>
-          დაჯავშნე
+          Book now
         </button>
       </motion.div>
 
+      
+
       <Content ref={myDivRef}>
-        <motion.div
+        
+      <motion.div
           className="content"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1, transform: "scale(1)" }}
@@ -99,10 +102,11 @@ function App() {
           </div>
 
           <motion.p className="text" variants={item}>
-            We have a unique space for creative events and special occasions, we
-            also have private studios for hire! Our incredible space in Prahran
-            homes our music school The SoundLab and shares the same floor of our
-            700 sqm warehouse conversion, with a theatre company.
+            
+            Don't miss out, `take your djing to the next level.
+asdasa            
+
+            <p>            keep in minde newSchool</p>
           </motion.p>
 
           <motion.p
@@ -114,14 +118,74 @@ function App() {
           </motion.p>
           <motion.button
             className="call"
-            onClick={() => window.open("tel:+995568116969")}
+            onClick={() => window.open("tel:+995511332212")}
             initial={{ y: 100, opacity: 0.1 }}
             whileInView={{ y: 0, opacity: 1 }}
           >
             call
           </motion.button>
+
+          <motion.button
+            className="call"
+            initial={{ y: 100, opacity: 0.1 }}
+            whileInView={{ y: 0, opacity: 1 }}
+          >
+            <a href="https://calendar.google.com/calendar/u/0/embed?src=nwscrecords@gmail.com&ctz=Asia/Tbilisi&fbclid=IwAR2jCSWxhaQq0W0aqAftsvmFCuKrt67f8XCU7pweM4zemCMn2MsgpfsK-Kw">
+            Book Online
+
+            </a>
+          </motion.button>
+
+          <motion.button
+            className="call"
+            onClick={() => window.open("tel:+995511332212")}
+            initial={{ y: 100, opacity: 0.1 }}
+            whileInView={{ y: 0, opacity: 1 }}
+          >
+            about us
+          </motion.button>
         </motion.div>
+
+        
       </Content>
+
+
+      <div 
+      className="info">
+      <motion.div
+          className="content"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1, transform: "scale(1)" }}
+        >
+          <div className="ordersection">
+            <h1> about us</h1>
+          </div>
+
+          
+            <div className="inform">
+            Attention all DJs in Tbilisi! Are you tired of practicing your sets at home, or struggling to find a suitable place to record your tracks? Look no further than “Newschoo”, the newest and most state-of-the-art DJ studio in town!  Our studio is fully equipped with the latest gear, including the top-of-the-line CdJ 3000 and NExus 2, as well as the industry-standard mixer Xone92 and Xone 96. We also have a powerful sound system with KRK rokit8 and Yamaha HS8 speakers to ensure your mixes sound crystal clear.
+Newschool is now available for rental, whether you’re a seasoned pro or just starting out in the world of DJing. Use our space to record your next mix, practice your sets before a big gig, or even host a listening party for your friends.
+Don’t miss out on this incredible opportunity to take your DJing to the next level. Contact us to book your session at Newschool
+            </div>
+
+          
+         
+
+         
+        </motion.div>
+      </div>
+
+      <motion.div
+        className="o"
+        initial={{ opacity: 0.5 }}
+        animate={{ opacity: 1, transform: "scale(1)" }}
+        transition={{ type: "spring" }}
+      >
+        <button className="order" onClick={handleClick}>
+          Book now
+        </button>
+      </motion.div>
+      
 
       <div className="zina">
         <motion.p
@@ -159,10 +223,11 @@ function App() {
           ALL RIGHT RESERVED 
           <p className='bottomtext'>
           © 2023 for
-          <span className="logonottom"> NWSCchool</span>
+          <span className="logonottom"> NWSChool</span>
           </p>
         </motion.p>
       </div>
+      
     </Wrapper>
   );
 }
@@ -190,7 +255,7 @@ const Header = styled.div`
   padding-right: 20px;
   border-bottom: 0.5px solid #ffffff4c;
   font-family: "Cookie", cursive;
-  font-size: 2.1em;
+  font-size:2em;
   z-index: 3;
 `;
 
@@ -215,3 +280,10 @@ const Content = styled.div`
   align-items: center;
   justify-content: center;
 `;
+
+
+const aboutUs= styled.div`
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+`
