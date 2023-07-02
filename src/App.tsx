@@ -3,7 +3,7 @@ import { Divide as Hamburger } from "hamburger-react";
 import { motion } from "framer-motion";
 
 import styled from "styled-components";
-import videoBG from "/bg-video.mp4";
+import videoBG from "../dist/video.mp4";
 
 const imgArray = ["/1.jpg", "/2.jpg", "/3.jpg", "/4.jpg", "/5.jpg", "/6.jpg"];
 
@@ -43,7 +43,7 @@ function App() {
       <Header>
         <div>
           <a href="/" className="logo">
-          𝔫𝔢𝔴𝔰𝔠𝔥𝔬𝔬𝔩
+          𝔫𝔴𝔰𝔠
           </a>
         </div>
 
@@ -103,10 +103,7 @@ function App() {
 
           <motion.p className="text" variants={item}>
             
-            Don't miss out, `take your djing to the next level.
-asdasa            
-
-            <p>            keep in minde newSchool</p>
+            Don't miss out, `take your djing to the next level keep in minde newSchool
           </motion.p>
 
           <motion.p
@@ -163,9 +160,18 @@ asdasa
 
           
             <div className="inform">
-            Attention all DJs in Tbilisi! Are you tired of practicing your sets at home, or struggling to find a suitable place to record your tracks? Look no further than “Newschoo”, the newest and most state-of-the-art DJ studio in town!  Our studio is fully equipped with the latest gear, including the top-of-the-line CdJ 3000 and NExus 2, as well as the industry-standard mixer Xone92 and Xone 96. We also have a powerful sound system with KRK rokit8 and Yamaha HS8 speakers to ensure your mixes sound crystal clear.
+            Attention all DJs in Tbilisi! Are you tired of practicing your sets at home, or struggling to find a suitable place to record your tracks? Look no further than “Newschool”, the newest and most state of the art DJ studio in town!
+            Our studio is fully equipped with the latest gear 
+            including the top of the line
+            CdJ 3000 & 2000 NXS2 x2
+
+            as well as the industry standard 
+            mixer Xone92 & Xone 96. 
+            
+            We also have a powerful sound system
+            KRK Rokit8 & Yamaha HS8 speakers to ensure your mixes sound crystal clear.
 Newschool is now available for rental, whether you’re a seasoned pro or just starting out in the world of DJing. Use our space to record your next mix, practice your sets before a big gig, or even host a listening party for your friends.
-Don’t miss out on this incredible opportunity to take your DJing to the next level. Contact us to book your session at Newschool
+Don’t miss out, take your DJing to the next level. Contact us to book your session at Newschool.
             </div>
 
           
@@ -281,9 +287,3 @@ const Content = styled.div`
   justify-content: center;
 `;
 
-
-const aboutUs= styled.div`
-  background-color: black;
-  margin-left: auto;
-  margin-right: auto;
-`
