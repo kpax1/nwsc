@@ -3,7 +3,7 @@ import { Divide as Hamburger } from "hamburger-react";
 import { motion } from "framer-motion";
 
 import styled from "styled-components";
-import videoBG from "../dist/video.mp4";
+import videoBG from '../dist/video.mp4';
 
 const imgArray = ["/1.jpg", "/2.jpg", "/3.jpg", "/4.jpg", "/5.jpg", "/6.jpg"];
 
