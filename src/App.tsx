@@ -3,7 +3,7 @@ import { Divide as Hamburger } from "hamburger-react";
 import { motion } from "framer-motion";
 
 import styled from "styled-components";
-import videoBG from '../dist/video.mp4';
+import video from '/video.mp4';
 
 const imgArray = ["/1.jpg", "/2.jpg", "/3.jpg", "/4.jpg", "/5.jpg", "/6.jpg"];
 
@@ -73,7 +73,7 @@ function App() {
         </Menu>
       )}
 
-      <video src={videoBG} autoPlay loop muted />
+      <video src={video} autoPlay loop muted />
       <div className="bg-overley"> </div>
 
       <motion.div
